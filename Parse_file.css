@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+
+		* {
+			box-sizing: border-box;
+		}
+
+		#t {
+		   font-size: 30px;
+		   font-family: 'Inconsolata', monospace;
+		   position: absolute;
+		   color: orange;
+		   margin-left: 100px;
+		   padding-top: 50px;
+		   transition: 900ms ease;
+		   -o-transition: 900ms ease;
+		   -webkit-transition: 900ms ease;
+		   -mozila-transition: 900ms ease;
+		}
+
+		#t:hover {
+			color: black;
+		}
+
+		#file-choose {
+			margin-top: 50px;
+			margin-left: 170px;
+			position: absolute;
+		}
